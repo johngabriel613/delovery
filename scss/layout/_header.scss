@@ -23,6 +23,7 @@
         &__nav{
             &__close{
                 display: none;
+                cursor: pointer;
             }
             
             ul{
@@ -37,7 +38,7 @@
 
         &__menu{
             display: none;
-            font-size: 1.75rem;
+            cursor: pointer;
         }
 
     }
@@ -74,11 +75,16 @@
                     font-size: .9rem;
                     flex-direction: column;
                     gap: 1rem;
+                    
+                    a{
+                        color: #808080;
+                    }
                 }
             }
 
             &__menu{
                 display: block;
+                font-size: 1.75rem;
             }
         }
     }

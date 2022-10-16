@@ -33,16 +33,23 @@
             }
 
             p{
-                color: #808080;
                 margin-bottom: 20px;
                 text-align: center;
+                line-height: 1.75;
+                font-weight: 600;
+
+                span{
+                    color:#ff4068 ;
+                }
             }
+
 
             a{
                 background: #ff4068;
                 color: #fff;
                 padding: 15px;
                 border-radius: 5px;
+                font-weight: 500;
             }
         }
     }

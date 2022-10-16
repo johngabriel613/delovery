@@ -165,13 +165,18 @@ body {
   width: min(100%, 300px);
 }
 .home__wrapper__content p {
-  color: #808080;
   margin-bottom: 20px;
   text-align: center;
+  line-height: 1.75;
+  font-weight: 600;
+}
+.home__wrapper__content p span {
+  color: #ff4068;
 }
 .home__wrapper__content a {
   background: #ff4068;
   color: #fff;
   padding: 15px;
   border-radius: 5px;
+  font-weight: 500;
 }/*# sourceMappingURL=index.css.map */
